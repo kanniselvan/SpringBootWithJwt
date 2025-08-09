@@ -1,6 +1,9 @@
 # SpringBootWithJwt
 
 
+
+---
+
  @Bean
     public JwtEncoder jwtEncoder() {
         JWK jwk = new RSAKey.Builder(keys.getPublicKey())
@@ -29,6 +32,7 @@
         return NimbusJwtDecoder.withPublicKey(keys.getPublicKey()).build();
     }
 
+---
 
 ![apiToken](https://github.com/user-attachments/assets/73ca1b0e-5eb3-4dc2-9bf0-6085ccf7ed7a)
 
