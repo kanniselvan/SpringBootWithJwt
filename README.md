@@ -2,7 +2,19 @@
 
 
 
+NimbusDS (from Nimbus Directory Services) refers to a set of open-source Java libraries for working with:
+
+JWTs (JSON Web Tokens)
+
+JOSE (JSON Object Signing and Encryption)
+
+JWK (JSON Web Keys)
+
+It's widely used in the Java ecosystem — especially within Spring Security — for handling cryptographic operations around tokens.
+
+
 ---
+
 
  @Bean
     public JwtEncoder jwtEncoder() {
