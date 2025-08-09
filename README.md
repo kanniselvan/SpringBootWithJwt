@@ -16,7 +16,7 @@ It's widely used in the Java ecosystem — especially within Spring Security —
 ---
 
 
- @Bean
+    @Bean
     public JwtEncoder jwtEncoder() {
         JWK jwk = new RSAKey.Builder(keys.getPublicKey())
                          .privateKey(keys.getPrivateKey())
